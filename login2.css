@@ -1,0 +1,80 @@
+#login_form
+{
+    width: 400px;
+    height: 450px;
+    margin-top:50px;
+    margin-left:80px;
+    padding: 20px;
+    border: 2px solid #808080;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+ }
+h1 
+{
+    text-align: center;
+    margin: 0 0 20px;
+    text-shadow: 2px 2px 2px rgb(86, 106, 133);
+}
+input{
+    margin: 5px 0;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius:20px;
+}
+/*#login_button{
+    margin: 20px 0 0 0;
+    padding: 15px 8px;          
+    width: 20%;
+    height:20%;
+    border: 1px solid hsla(0,72%,27%,0);
+    font: bold 1.2em myFirstFont;
+    color: #fff;
+    background-color: #4d90fe;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+ }*/
+input:focus
+{
+    outline:0;
+    box-shadow: 5px 5px 5px rgba(30,50,40,0.5);
+} 
+#d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#m{
+    background:url('movie.webp') no-repeat center center/cover;
+}
+.box{
+    padding: 12px;
+    margin: 20px;
+    width:65%;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 1rem;
+
+}
+.sub{
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.sub:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
